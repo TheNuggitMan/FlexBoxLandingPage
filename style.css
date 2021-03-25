@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
-@media only screen and (max-width: 480px) {
-    h1 {
-        font-size: 5rem;
-    }
-
-    #missionCont h2 {
-        right: 5%;
-    }
-}
-
 html {
     font-size: 10px;
 }
@@ -40,6 +30,18 @@ h2 {
     font-size: 3rem;
     text-shadow: white 2px 1px;
     color: black;
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    #missionCont h2 {
+        position: absolute;
+        top: 600px;
+        right: 5%;
+    }
 }
 
 nav {
