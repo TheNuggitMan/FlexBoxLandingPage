@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    #missionCont h2 {
+        right: 5%;
+    }
+}
+
 html {
     font-size: 10px;
 }
@@ -17,9 +27,6 @@ body {
 }
 
 header {
-    /* background-image: url("img/bar.jpg");
-    background-size: cover;
-    background-repeat: no-repeat; */
     max-height: 25%;
     max-width: 100%;
 }
