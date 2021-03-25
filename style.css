@@ -35,6 +35,7 @@ h2 {
 @media only screen and (max-device-width: 480px) {
     h1 {
         font-size: 5rem;
+        text-align: center;
     }
 
     #missionCont h2 {
