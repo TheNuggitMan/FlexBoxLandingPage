@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0 auto;
+    background-color: silver;
+    font-family: 'Work Sans', sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 1000px;
+}
+
+header {
+    /* background-image: url("img/bar.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    max-height: 25%;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 7rem;
+    text-shadow: white 2px 1px;
+}
+
+h2 {
+    font-size: 3rem;
+    text-shadow: white 2px 1px;
+    color: black;
+}
+
+nav {
+    position: relative;
+    top: 25%;
+    min-width: 100%;
+    border-top: 2px solid darkgray;
+    background-color: silver;
+    transition: background-color 0.2s ease-in;
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    display: inline-flex;
+    font-size: 3rem;
+    margin-left: 20px;
+}
+
+#mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#missionCont {
+    max-width: 1000px;
+}
+
+#missionCont img {
+    max-width: 100%;
+    border-radius: 5px;
+    border: 5px solid darkgray;
+    padding: 5px;
+}
+
+#missionCont h2 {
+    margin-right: 30px;
+    position: absolute;
+    top: 600px;
+    right: 400px;
+    z-index: 1;
+}
+
+#team {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.teamText {
+    color: white;
+    font-size: 2rem;
+    min-width: 200px;
+    max-width: 700px;
+}
+
+
+.teamImgContainer {
+    width: 250px;
+}
+
+.teamImgContainer img {
+    max-width: 100%;
+    margin-top: 35px;
+    border-radius: 5px;
+}
+
+#order {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+    margin-bottom: 10%;
+}
+
+form p {
+    font-size: 3rem;
+}
+
+footer p {
+    /* height: 69px */
+    font-size: 2rem;
+}
